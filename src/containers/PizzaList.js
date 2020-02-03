@@ -13,8 +13,6 @@ class PizzaList extends Component {
       findPizza={this.props.findPizza}
       />)
 
-      // console.log(this.props)
-
     return (
       <table className="table table-striped">
         <thead>
@@ -31,7 +29,6 @@ class PizzaList extends Component {
       </table>
     );
   }
-
 }
 
 export default PizzaList;

@@ -27,7 +27,6 @@ class App extends Component {
     this.setState({
       soughtPizza: targetPizza
     })
-    return targetPizza
   }
 
   
@@ -79,7 +78,6 @@ class App extends Component {
     })
   }
     
-  
   
   render() {
   
